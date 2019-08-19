@@ -4,6 +4,8 @@
 #include <module2/mod2c2.hpp>
 #include <program.hpp>
 
+extern void HelloPrint();
+
 int main()
 {
    mod1c1 m1c1;
@@ -17,6 +19,6 @@ int main()
    m2c2.foo();
    
    program::foo();
-
+   HelloPrint();
    return 0;
 }
