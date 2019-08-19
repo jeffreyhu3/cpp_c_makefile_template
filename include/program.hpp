@@ -7,7 +7,7 @@ namespace program
 {
     inline void foo()
     {
-        printf("program::foo(), Hujunfeng\n");
+        printf("program::foo()\n");
     }
 }
 
